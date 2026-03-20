@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+    --background-color: #08090E;
+    --pink-accent: #F2A8BC;
+    --green: #50C864;
+    --spotify-green: #1ED760;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--background-color);
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+.custom-cursor {
+    cursor: url('path/to/cursor-image.png'), auto;
+}
+
+section {
+    padding: 120px 52px;
+}
